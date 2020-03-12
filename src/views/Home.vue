@@ -30,15 +30,17 @@
             v-for="(item, i) in items"
             :key="i"
             cols="12"
-            md="12"
+            md="6"
             sm="12"
           >
-            <v-card dark>
+            <v-card dark color="transparent">
               <v-container>
-                <v-card-title class="display-1 font-weight-thin text-uppercase">
+                <v-card-title
+                  class="display-1 font-weight-thin text-uppercase justify-center"
+                >
                   {{ item.title }}
                 </v-card-title>
-                <div>
+                <div class="d-flex justify-center">
                   <v-img :src="item.image" max-width="400"></v-img>
                 </div>
               </v-container>
