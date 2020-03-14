@@ -1,7 +1,7 @@
 <template>
   <v-app-bar app dark color="black" flat fixed clipped-right>
-    <v-toolbar-title class="ml-12  display-1 font-weight-light"
-      ><span>ASTRO</span><span class="purple--text ">KIT</span></v-toolbar-title
+    <v-toolbar-title  class="ml-12  display-1 font-weight-light"
+      ><router-link to="/" style="text-decoration:none"><span class="white--text">ASTRO</span><span class="purple--text ">KIT</span></router-link></v-toolbar-title
     >
 
     <v-spacer></v-spacer>
